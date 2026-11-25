@@ -13,7 +13,8 @@ push to a plugin's repo is what updates it.
 
 - **Claude Code:** `/plugin marketplace add hagenbui/hagent-skills`, then `/plugin install design-hagent@hagent-skills`
   (and the others). In `/plugin`, Marketplaces, turn on auto-update for hagent-skills.
-- **claude.ai and Cowork (once per organization):** an Owner adds `hagenbui/hagent-skills` as a plugin marketplace in
-  the organization's plugin settings and makes the plugins available. They sync from GitHub after each push.
+- **claude.ai and Cowork:** add `hagenbui/hagent-skills` as a plugin marketplace (your own, or an Owner for the whole
+  organization). Plugins sync from GitHub after each push.
 
-The repos are private, so every install needs read access to them on GitHub.
+design-hagent and storelisting-hagent are public, so anyone can install them. omniroute-images stays private (it only
+works on Hagen's Mac), so it fails to install for anyone else.

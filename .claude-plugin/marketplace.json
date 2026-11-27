@@ -5,7 +5,7 @@
   "plugins": [
     {
       "name": "design-hagent",
-      "source": { "source": "github", "repo": "hagenbui/design-hagent" },
+      "source": { "source": "url", "url": "https://github.com/hagenbui/design-hagent.git" },
       "description": "Process skill for Hagen's mobile design system in Figma: the base file, the Tier 2 Template and the app files built on it, including a read-only UX and accessibility review.",
       "category": "design"
     },
@@ -17,7 +17,7 @@
     },
     {
       "name": "omniroute-images",
-      "source": { "source": "github", "repo": "hagenbui/omniroute-image-mcp" },
+      "source": { "source": "url", "url": "https://github.com/hagenbui/omniroute-image-mcp.git" },
       "description": "Generate, edit and compare GPT and Gemini images through the OmniRoute bridge. Claude Code on Hagen's Mac only: it starts a local script that reaches the home server over SSH.",
       "category": "productivity"
     }
